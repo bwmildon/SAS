@@ -4,32 +4,3 @@ html {
   display: flex;
   justify-content: center;
 }
-
-h2 {
-  font-family: Helvetica, sans-serif;
-  font-size: 1rem;
-  color: white;
-}
-
-body {
-  width: 960px;
-}
-
-header .logo {
-  margin: 0.66rem;
-}
-
-header .container {
-  height: 25rem;
-}
-
-nav {
-  background-color: firebrick;
-}
-
-footer {
-  height: 5rem;
-  background-color: black;
-  text-align: left;
-}
-

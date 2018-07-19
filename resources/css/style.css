@@ -1,6 +1,147 @@
 
 html {
   font-size: 18px;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h3 {
+  padding: 2rem 0 0.25rem 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  padding: 0 0 2rem 3rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  margin: 0rem 0.5rem;
+}
+
+header h2 {
+  margin: 0.66rem 0.5rem;
+}
+
+.banner {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .textBox {
+  width: 20rem;
+  margin: 9rem 0 0 0;
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+  background-color: firebrick;
   display: flex;
   justify-content: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+nav ul li {
+  margin: 0.75rem 1rem;
+}
+
+main {
+  width: 100%;
+}
+
+.products {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.productCard {
+  width: 30%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.productCard img {
+  max-height: 9rem;
+  max-width: 100%;
+  margin: 2rem;
+}
+
+.productCard h2 {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: black;
+  text-align: center;
+}
+
+.businessInfo {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.businessInfo .infoBlock {
+  width: 35%;
+}
+
+.infoBlock h2 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+footer {
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  
 }
